@@ -49,5 +49,5 @@ app.use(notFound);
 app.use(errorHandler);
 
 app.listen(PORT, () => {
-  console.log(`server running on port ${PORT}`.yellow.bold);
+  console.log(`server running on port ${PORT}`);
 });
